@@ -1,0 +1,14 @@
+ <div class="container">
+    {{#each carInfo}}
+      <div class="wrap">
+          <div class="gallery">
+              <a href="/{{car_name}}">
+                <img src="/images/{{car_img}}" alt="avatar">
+            </a>
+
+            <h3 class="des">{{car_name}}</h3>
+         </div>
+      </div>
+   {{/each}}
+</div>
+
